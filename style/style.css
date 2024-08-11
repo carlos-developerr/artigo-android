@@ -52,6 +52,44 @@ main a:hover {
     color: var(--cor4);
 }
 
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.7em;
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 body {
     background-color:  var(--cor0);
     font-family: var(--fonte-padrao);
@@ -95,6 +133,7 @@ nav {
     box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.192);
     text-align: center;
 }
+
 nav > a {
     color: var(--cor1);
     padding: 10px;
@@ -109,44 +148,6 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
-}
-
-main {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-main h1 {
-    color: var(--cor5);
-    font-family: var(--fonte-android);
-    font-weight: normal;
-    font-size: 1.7em;
-}
-
-main h2 {
-    font-family: var(--fonte-android);
-    color: var(--cor4);
-    font-size: 1.3em;
-    font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    text-indent: 8px;
-}
-
-main img {
-    width: 100%;
-}
-
-main img.pequena {
-    max-width: 350px;
-    display: block;
-    margin: auto;
 }
 
 div.video {
@@ -170,7 +171,6 @@ aside {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.281);
-
 }
 
 aside > ul {
@@ -211,4 +211,3 @@ footer strong {
     color: var(--cor1);
     font-weight: bold;
 }
-
