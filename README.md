@@ -8,7 +8,7 @@
 ---
 Um artigo detalhado sobre o sistema operacional Android, com foco na sua história, evolução e impacto no mercado. 
 
-### Informações
+## Informações
 
 1. **Design Responsivo:** O artigo é responsivo, garantindo uma boa experiência de leitura em diferentes dispositivos.
 
